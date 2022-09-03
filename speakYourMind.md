@@ -1,24 +1,31 @@
-# Speak Your Mind - Help paraplegia to communicate with other people and interact with other people in their daily life
+# Speak Your Mind - Help People with Paralysis Communicate
 
 ## Inspiration
-Due to some disease that leads to paralysis, some people experience difficulty in interacting with other people in their daily life. Inspired to help these people make a normal conversation,  we came up with an idea to create an app to help severely paralytic people to speak out loud their thoughts by using their eyes and head movement. 
+Conditions such as stroke and neurodegenerative disease can lead to anarthria - the loss of the ability to articulate speech. People with anarthria experience difficulty interacting with others in their daily lives. Many devices on the market assist with communication problems. In this hackathon, we want to work on something we haven't done before by attempting to replicate these devices by building a desktop app using machine learning algorithms. 
+
+As a team of undergraduate students without experience building a desktop app or implementing machine learning algorithms, we use Python and a pre-trained machine learning model. Within 24 hours, we successfully build a desktop application using eye and head movement algorithms to help people with paralysis communicate. 
 
 ## What it does
-By gazing their eyes right, left and center, blinking, winking, and move their head slightly, the user can drag and click the mouse cursor. The GUI comprises an onscreen keyboard to construct sentences and a list of suggested sentences to quickly generate simple conversation. This app is an inexpensive alternative for dedicated speech devices that are available on the market right now.
+The user can drag and click the mouse cursor by moving their eyes, blinking, winking, and moving their head. The GUI comprises an onscreen keyboard to construct sentences and a list of suggested sentences to generate simple conversation quickly. 
 
 ## How we built it
-We use Python packages OpenCv, Dlib, and trained model of facial features to track the shape and position of eye pupils to analyze if the eyes are gazing to the left, right, center, blinking, or winking to drag and click mouse cursor.
+- Desktop UI:
+We use Tkinter and Pygame Python packages to create the user interface, composed of a keyboard and textbox to display generated sentences. 
 
-Tkinter and Pygame python packages are used to create the GUI. We also use Google Cloud Text to Speech Client Libraries to generate speech after the user completes making a sentence using the onscreen keyboard or after clicking on the suggested sentences. 
+- Eye and Head Movement Tracking Algorithm:
+We use Python packages - OpenCV, Dlib - and a trained model of facial features to track the shape and position of eye pupils. We analyze whether the eyes gaze to the left, right, center, blinking, or winking to control the mouse cursor.
+
+- Text To Speech
+After getting user input, we apply Google Cloud Text to Speech Client Libraries to generate speech. 
 
 ## Challenges we ran into
-There is some extent of delay in mouse cursor movement when using eye-tracking. Therefore, we adding head pose estimation algorithm to accelerate the process of converting facial movement to computer commands. 
+There is some extent of delay in mouse cursor movement when using eye-tracking. Therefore, we are adding a head pose estimation algorithm to accelerate the process of converting facial movement to computer commands. 
 
 ## Accomplishments that we're proud of
-We did not come with an idea or any plan but luckily we went through the daunting challenge of brainstorming and came up with an application that solves a very important problem that people with severe paralysis are facing every day: communication.
+We did not come up with an idea or any plan. Still, luckily, we successfully created a prototype and demoed it to the judges. All the functions worked as we expected.
 
 ## What we learned
-This was a very first hackathon to some of our members. We hadn't known much about eye-tracking, head pose estimation, or google cloud text to speech libraries before this hackathon. It was definitely a great opportunity to broaden our horizons, cultivate new skills, and improve public speaking skills. 
+This was the very first hackathon for some of our members. Before this hackathon, we haven't known much about eye-tracking, head pose estimation, or google cloud text-to-speech libraries. This is also an opportunity to broaden our horizons, cultivate new skills, and improve our public speaking skills. 
 
 ## What's next for Speech and Communication Support for Disabled Patients
-We're planning to create a more user-friendly GUI for the paralyzed patients that gives them the non-lagging experiences.
+We're planning to create a more user-friendly UI for paralyzed patients that give them a better experience.
