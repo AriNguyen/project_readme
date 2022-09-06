@@ -1,6 +1,3 @@
-# Obstacle Avoidance for Blind People
-Allows visually impaired people navigate around easily and find a particular object with ease.
-
 ## Inspiration
 The goal of the project is to develop a device that allows visually impaired people to navigate around without much dependence on other people or cumbersome tools and locate specific objects with ease.
 

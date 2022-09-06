@@ -1,5 +1,3 @@
-# CodeGrindr - A solution for effective Hackathon team formation
-
 ## Inspiration
 Finding the right teammates is a crucial step for a successful project. Therefore, we proudly present a social platform to let hackathon's goers to match, interact, and form teams. 
 

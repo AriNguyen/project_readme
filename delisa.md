@@ -1,5 +1,3 @@
-# SmartFridge - Mobile App to Reduce Food Waste
-
 ## Inspiration
 In the United States, food waste is estimated at between 30-40 percent of the food supply [https://www.usda.gov/foodwaste/faqs](Source). Our biggest inspiration stems from our concern about the environment and how we can make simple lifestyle changes and be more responsible about our consumption. 
 

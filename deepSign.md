@@ -1,5 +1,3 @@
-# DeepSign Game - Interactive fun Unity Game for learning American Sign Language
-
 ## What it does
 RunningHand Game is an educational endless runner game that lets players avoid obstacles by practicing American Sign Language. Using finger tracking, players gesture corresponding letters to jump, roll, or change lanes to survive as long as possible. This task requires players need to leverage quick memory recall, and the goal of surviving in an endless runner game will encourage competitiveness among players
 

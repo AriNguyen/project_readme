@@ -1,7 +1,3 @@
-# Smart Wheelchair for Severely Paralyzed Patients
-
-Using computer-vision-based eye-tracking and IMU-based head pose estimation to help severely paralyzed patients navigate indoor and outdoor environments without much assistance from other people
-
 ## Inspiration
 Patients suffering from severe paralysis are usually dependent on others for assistance to moving around. Our team creates a complete solution that enables them to see the world independently. The prototype is wifi-controllable and consists of an onboard Camera. We’re using computer-vision-based eye-tracking and IMU-based head pose estimation to receive commands from the user to control the car. This system helps paralyze people to physically interact with other people and explore their surroundings.
  

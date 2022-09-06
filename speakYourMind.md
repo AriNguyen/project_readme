@@ -1,5 +1,3 @@
-<!-- # Speak Your Mind - Help People with Paralysis Communicate -->
-
 ## Inspiration
 Conditions such as stroke and neurodegenerative disease can lead to anarthria - the loss of the ability to articulate speech. People with anarthria experience difficulty interacting with others in their daily lives. Many devices on the market assist with communication problems. In this hackathon, we want to work on something we haven't done before by attempting to replicate these devices by building a desktop app using machine learning algorithms. 
 
