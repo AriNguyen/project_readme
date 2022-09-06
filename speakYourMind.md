@@ -1,4 +1,4 @@
-# Speak Your Mind - Help People with Paralysis Communicate
+<!-- # Speak Your Mind - Help People with Paralysis Communicate -->
 
 ## Inspiration
 Conditions such as stroke and neurodegenerative disease can lead to anarthria - the loss of the ability to articulate speech. People with anarthria experience difficulty interacting with others in their daily lives. Many devices on the market assist with communication problems. In this hackathon, we want to work on something we haven't done before by attempting to replicate these devices by building a desktop app using machine learning algorithms. 
@@ -9,13 +9,17 @@ As a team of undergraduate students without experience building a desktop app or
 The user can drag and click the mouse cursor by moving their eyes, blinking, winking, and moving their head. The GUI comprises an onscreen keyboard to construct sentences and a list of suggested sentences to generate simple conversation quickly. 
 
 ## How we built it
-- Desktop UI:
+
+**Desktop UI**:
+
 We use Tkinter and Pygame Python packages to create the user interface, composed of a keyboard and textbox to display generated sentences. 
 
-- Eye and Head Movement Tracking Algorithm:
+**Eye and Head Movement Tracking Algorithm:**
+
 We use Python packages - OpenCV, Dlib - and a trained model of facial features to track the shape and position of eye pupils. We analyze whether the eyes gaze to the left, right, center, blinking, or winking to control the mouse cursor.
 
-- Text To Speech
+**Text To Speech:**
+
 After getting user input, we apply Google Cloud Text to Speech Client Libraries to generate speech. 
 
 ## Challenges we ran into
